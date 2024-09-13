@@ -9,3 +9,17 @@
 .box_img img{
     width: 100%;
 }
+
+@media (min-width: 320px){
+    .main_port h1{
+        font-size: 20px;
+    }
+
+    .section_6{
+        margin: 110px 0px;
+    }
+
+    .set_logo img{
+        width: 100%;
+    }
+}
