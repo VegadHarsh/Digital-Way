@@ -8,6 +8,7 @@
 
 .main_content{
     background: #f4f3f9;
+    flex-wrap: wrap;
 }
 
 .text-content{
@@ -45,3 +46,119 @@
     object-fit: cover;
     border-radius: 50% 0 0 50% / 100% 0 0 100%;
 }
+
+.text_margin{
+    margin-bottom: 80px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .text-content p{
+        font-size: 13px;
+    }
+
+    .text-content h1{
+        font-size: 35px;
+    }
+
+    .text-content button{
+        padding: 4px 20px;
+    }
+    
+    .text-content button a{
+        font-size: 13px;
+    }
+
+    .text_margin{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-content p{
+        font-size: 8px;
+    }
+
+    .text-content h1{
+        font-size: 26px;
+    }
+
+    .text-content button{
+        padding: 4px 20px;
+    }
+    
+    .text-content button a{
+        font-size: 10px;
+    }
+    
+    .text_margin{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 426px) {
+    .text-content p{
+        font-size: 5px;
+        margin: 10px 0px;
+    }
+
+    .text-content h1{
+        font-size: 15px;
+        width: 108%;
+    }
+
+    .text-content button{
+        padding: 2px 10px;
+    }
+    
+    .text-content button a{
+        font-size: 5px;
+        display: flex;
+        padding: 5px 8px;
+    }
+
+    .text_margin{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 320px) {
+    .text-content p{
+        font-size: 5px;
+        margin: 10px 0px;
+    }
+
+    .text-content h1 {
+        font-size: 11px;
+        width: 106%;
+    }
+
+    .text-content button{
+        padding: 2px 4px;
+    }
+    
+    .text-content button a{
+        font-size: 5px;
+        display: flex;
+        padding: 3px 8px;
+    }
+    
+    .text_margin{
+        margin-bottom: 6px;
+    }
+    
+    .search{
+        font-size: 10px;
+    }
+
+    #ham-burger i{
+        font-size: 10px;
+    }
+
+    .search-field{
+        padding: 4px 10px;
+        right: 60px;
+    }
+}
+

@@ -46,3 +46,77 @@
     font-size: 13px;
     text-decoration: none;
 }
+
+@media (min-width: 320px){   
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+    .text-det{
+        font-size: 15px;
+        line-height: 31px;
+    }
+
+    .service_part{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .content_services h5{
+        font-size: 14px;
+    }
+
+    .content_services p{
+        font-size: 10px;
+    }
+
+    .unvelied_part img{
+        margin-bottom: 50px;
+    }
+    
+    .text_ser h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .text_content span{
+        font-size: 35px;
+    }
+
+    .text_content i{
+        font-size: 13px;
+    }
+
+    .text_content{
+        margin-bottom: 10px;
+    }
+
+    .text_ser button{
+        padding: 4px 0px;
+    }
+
+    .text_ser button a{
+        color: #ffff;
+        padding: 13px 30px;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    .manage_project{
+        height: 300px;
+    }
+
+    .manage_project_text h2{
+        font-size: 20px;
+    }
+
+    .det_ser_txt h1{
+        margin-top: 140px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .set_cont{
+        margin: 30px 0px;
+    }
+
+}
