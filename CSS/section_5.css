@@ -1,0 +1,103 @@
+.service_details {
+    height: 400px;
+}
+
+.det_ser_txt h1{
+    font-weight: bold;
+}
+
+.det_ser_txt p{
+    font-size: 15px;
+    width: 95%;
+}
+
+.det_ser_txt a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+}
+
+.det_ser_txt a::after{
+    content: "";
+    position: absolute;
+    top: 21px;
+    right: 20px;
+    width: 80%;
+    height: 1px;
+    background: #F44358;
+}
+
+.percent {
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Optional: Adds space between items */
+}
+
+.percent p {
+    margin: 0;
+    position: relative;
+}
+
+.percent_1 p::after,
+.percent_2 p::after,
+.percent_3 p::after,
+.percent_4 p::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Adjust this to move the line further from the text */
+    width: 100%;
+    height: 3px;
+    right: 0;
+}
+
+.percent_1 p::after {
+    background: linear-gradient(to right, #fb5252 50%, rgb(205, 205, 205) 50%);
+}
+
+.percent_2 p::after {
+    background: linear-gradient(to right, #fb5252 35%, rgb(205, 205, 205) 65%);
+}
+
+.percent_3 p::after {
+    background: linear-gradient(to right, #fb5252 75%, rgb(205, 205, 205) 25%);
+}
+
+.percent_4 p::after {
+    background: linear-gradient(to right, #fb5252 90%, rgb(205, 205, 205) 10%);
+}
+
+.center-text {
+    position: absolute;
+    top: 8px; 
+    transform: translateX(-50%);
+    background-color: #fff; 
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 1;
+    height: 24px;
+}
+
+
+.percent_1 .center-text {
+    left: 50%;
+}
+
+.percent_2 .center-text {
+    left: 35%;
+}
+
+.percent_3 .center-text {
+    left: 75%;
+}
+
+.percent_4 .center-text {
+    left: 90%;
+}
+
+.set_cont{
+    line-height: 32px;
+}

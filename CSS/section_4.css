@@ -1,0 +1,30 @@
+.section_4{
+    background: #E8CCCC;
+}
+
+.manage_project{
+    height: 400px;
+}
+
+.manage_project_text{
+    width: 46%;
+}
+
+.manage_project_text h2{
+    font-weight: bold;
+}
+
+.manage_project_text button{
+    background: #F44358;
+    padding: 8px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.manage_project_text button a{
+    color: #ffff;
+    padding: 20px 30px;
+    font-size: 13px;
+    text-decoration: none;
+}

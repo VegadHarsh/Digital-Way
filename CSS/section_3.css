@@ -1,0 +1,48 @@
+.text-det{
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.content_services i{
+    font-size: 30px;
+}
+
+.content_services {
+    text-align: center;
+}
+
+.unvelied_part img {
+    box-shadow: -26px 26px 15px 5px rgba(92, 92, 92, 0.5);
+}
+
+.text_ser h1{
+    font-weight: bold;
+}
+
+.text_content span{
+    font-size: 50px;
+}
+
+.text_content i{
+    font-weight: 100;
+}
+
+.service_part{
+    margin: 40px 0px;
+    padding: 30px 0px;
+}
+
+.text_ser button{
+    background: #F44358;
+    padding: 8px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.text_ser button a{
+    color: #ffff;
+    padding: 20px 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
