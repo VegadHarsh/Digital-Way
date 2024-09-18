@@ -13,9 +13,9 @@ searchbtn.addEventListener("click", () => {
 
 
 // Hamburger Manu
-// const menu = document.querySelector(".nav-links");
-// const hamburger = document.querySelector(".nav-toggle");
+const menu = document.querySelector(".nav-links");
+const hamburger = document.querySelector(".fa-bars");
 
-// hamburger.addEventListener("click", () => {
-//     menu.classList.toggle("active");
-// });
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});

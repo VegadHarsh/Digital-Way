@@ -37,8 +37,6 @@
   opacity: 1;
 }
 
-
-
 *{
     font-family: sans-serif;
     margin: 0px;
@@ -86,37 +84,37 @@
     border: none;
     background: #e0e0e0;
     position: absolute;
-    right: 20px;
+    right: 200px;
     top: 70px;
     opacity: 0;
     z-index: 50;
 }
 
 /* Hamburger */
-.nav-toggle{
+#ham-burger{
   display: none;
+  font-size: 24px;
+  color: black;
 }
 
 
 /* For smaller screens */
 @media (max-width: 768px) {
-  /* .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: white; */
-    /* position: absolute;
-    left: 0;
-    right: 10px; */
-    /* text-align: center;
-    width: 240px;
-    border-radius: 20px;
-    top: 35px;
-    z-index: 999;
-    transition: 0.3s ease;
-  } */
+
+  .search{
+    margin-right: 70px;
+  }
 
   .nav-links li {
-      margin: 20px 0;
+      margin: 12px 0;
+  }
+
+  #ham-burger{
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    display: block;
   }
 
   .nav-toggle {
@@ -124,35 +122,27 @@
       cursor: pointer;
   }
 
-  .navbar{
-    display: none;
-  }
-
   .nav-links{
     display: none;
     flex-direction: column;
     background-color: white;
-    position: absolute;
-    left: 430px;
+    position: fixed;
+    left: 770px;
     text-align: center;
-    width: 240px;
+    width: 60%;
     border-radius: 20px;
-    top: 35px;
+    top: 37px;
     z-index: 999;
     transition: 0.5s ease;
   }
   
   .active{
-    /* left: 0px; */
+    left: 310px;
   }
 
   .search-field {
-      right: 30px;
-      top: 50px;
-  }
-
-  .nav-links{
-    flex-direction: column;
+      right: 100px;
+      top: 10px;
   }
 }
 
@@ -160,7 +150,36 @@
   display: flex;
 }
 
-#ham-burger i {
-  font-size: 24px;
-  color: black;
+@media (min-width: 320px) and (max-width: 426px){
+  #ham-burger{
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    display: block;
+  }
+
+  .search{
+    font-size: 13px;
+    /* position: absolute; */
+    right: 30px;
+  }
+
+  .nav-links{
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    left: 430px;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    top: 37px;
+    z-index: 999;
+    transition: 0.5s ease;
+  }
+  
+  .active{
+    left: 0px;
+  }
 }

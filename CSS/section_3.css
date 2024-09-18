@@ -13,6 +13,12 @@
 
 .unvelied_part img {
     box-shadow: -26px 26px 15px 5px rgba(92, 92, 92, 0.5);
+    transition: 0.3s ease;
+}
+
+.unvelied_part img:hover {
+    transform: scale(1.1);
+    box-shadow: -26px 26px 25px -5px rgba(92, 92, 92, 0.5);
 }
 
 .text_ser h1{
@@ -47,8 +53,7 @@
     text-decoration: none;
 }
 
-@media (min-width: 320px){   
-}
+
 
 @media (min-width: 320px) and (max-width: 426px) {
     .text-det{

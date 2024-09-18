@@ -38,3 +38,32 @@ footer{
 .follow_links a:hover .fa-twitter {
     color: #1DA1F2; /* Twitter's official color */
 }
+
+@media (min-width: 320px) and (max-width: 425px){
+    .main_footer h1 {
+        font-size: 26px;
+    }
+
+    .main_footer p {
+        font-size: 12px;
+    }
+
+    .foot_det p{
+        text-align: center;
+    }
+
+    .Email_filed input {
+        text-align: center;
+        height: 30px;
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .Email_filed{
+        justify-content: center;
+    }
+
+    .Email_filed a{
+        font-size: 8px;
+    }
+}
